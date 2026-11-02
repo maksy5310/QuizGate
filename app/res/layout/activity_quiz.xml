@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/bg"
+    android:paddingTop="70dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz_title"
+        android:textColor="@color/accent"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/text_dim"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:textColor="@color/text_main"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/btn_text"
+            android:textSize="27sp"
+            android:maxLines="2" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/btn_text"
+            android:textSize="27sp"
+            android:maxLines="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/btn_text"
+            android:textSize="27sp"
+            android:maxLines="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/btn_text"
+            android:textSize="27sp"
+            android:maxLines="2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:textColor="@color/accent"
+        android:textSize="26sp" />
+</LinearLayout>

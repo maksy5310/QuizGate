@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/accent"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:textColor="@color/text_main"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/btnToggle"
+        android:layout_width="520dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/btn_text"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnInterval"
+        android:layout_width="520dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/btn_text"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnGrade"
+        android:layout_width="520dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/btn_text"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/text_dim"
+        android:textSize="20sp" />
+</LinearLayout>

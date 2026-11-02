@@ -1,0 +1,13 @@
+# 统一换行符为 LF。
+# Windows 上 core.autocrlf=true 会把脚本转成 CRLF，导致 Linux/macOS 下
+# 报 "bad interpreter: /usr/bin/env bash^M"，所以必须显式锁定。
+* text=auto eol=lf
+
+# Shell / Python 脚本强制 LF
+*.sh  text eol=lf
+*.py  text eol=lf
+
+# 二进制文件不做换行符转换
+*.png  binary
+*.apk  binary
+*.jar  binary
